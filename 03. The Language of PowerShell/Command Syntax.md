@@ -56,4 +56,10 @@ Syntax
     Get-Service [[-Name] <System.String[]>] [-ComputerName <System.String[]>] [-DependentServices ] 
     [-Exclude <System.String[]>] [-Include <System.String[]>] [-RequiredServices ] [<CommonParameters>]
 ```
+```html
+PS C:\WINDOWS\system32> Get-Service -DisplayName 'ActiveX Installer (AxInstSV)'
 
+Status   Name               DisplayName                           
+------   ----               -----------                           
+Stopped  AxInstSV           ActiveX Installer (AxInstSV)          
+```
