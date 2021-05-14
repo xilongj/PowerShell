@@ -1,8 +1,7 @@
 ## Section Overview
 ### Purpose
-```html
 PowerShell is Object based. To understand PowerShell you need to have a good grasp of Objects.
-```
+
 ### What you will learn
 - In Part 1, Objects-Properties and Methods, you'll be presented with two illustrations to help you grasp the concepts of objects. 
 - In Part 2, we'll use get-member to get the methods of an object. We'll demonstrate several examples of how to use the methods of an object to complete everyday tasks. 
