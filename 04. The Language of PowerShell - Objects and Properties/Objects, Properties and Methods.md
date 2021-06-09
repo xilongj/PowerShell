@@ -282,12 +282,12 @@ China Daylight Time
 ```html
 PS C:\WINDOWS\system32> Get-WmiObject -Class Win32_Bios
 
-SMBIOSBIOSVersion : 6.00
-Manufacturer      : Phoenix Technologies LTD
-Name              : PhoenixBIOS 4.0 Release 6.0     
-SerialNumber      : VMware-56 4d 9d 62 a8 76 b3 f0-00 50 b6 1d d7 66 2d c5
-Version           : INTEL  - 6040000
+SMBIOSBIOSVersion : 1.19.0
+Manufacturer      : Dell Inc.
+Name              : 1.19.0    
+SerialNumber      : 9Z6J5S2
+Version           : DELL  - 1072009
 
 PS C:\WINDOWS\system32> (Get-WmiObject -Class Win32_Bios).SMBIOSBIOSVERSION
-6.00
+1.19.0
 ```
