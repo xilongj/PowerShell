@@ -33,6 +33,9 @@ Mode                LastWriteTime         Length Name
 ```
 ### Remove-Item
 ```html
+PS C:\WINDOWS\system32> Get-ChildItem C:\Users\xilongj\PycharmProjects\PowerShell -Recurse | Remove-Item -WhatIf
+```
+```html
 PS C:\WINDOWS\system32> Get-ChildItem C:\Users\xilongj\Desktop -Recurse | Remove-Item -Confirm
 ```
 ### Out-File
